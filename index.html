@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+   
+    <title>IGx Store</title>
+</head>
+<body>
+    <header class="header"> 
+        <p class="logo">IGx<span>Store</span></p>  
+        <nav>
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Jogos" >Jogos</a></li>
+                <li><a href="#Contato">Contatos</a></li>
+            </ul>
+        </nav>
+        <div class="Carrinho">
+            <p id = "Carrinho-Contador">Itens : <span>0</span></p>
+        </div>
+
+    </header>
+        <div class="carousel">
+            <img src="src/assets/Controles.jpg" class="active">
+            <img src="src/assets/JogosCarousel.jpg" >
+            <img src="src/assets/ImagensDeJogosRedMarKMine.avif" >
+            <img src="src/assets/RocketLeague.jpg" >
+            <img src="src/assets/fifa25.jpg" >
+            <img src="src/assets/CallOfDutyWarzone.jpg" >
+
+            <div class="buttons">
+                <button onclick="prev()">❮</button>
+                <button onclick="next()">❯</button>
+            </div>
+        </div>
+
+    <main class="conteiner"> 
+        <h2 class="destaques">Jogos em destaques</h2>
+        <br/>
+        <br/>
+         
+        <section class = "card" id="Jogos">
+        <div class="game-card" >
+            <img src="src/assets/FatalFrame.jpg">
+            <h3>Fatal Frame</h3>
+            <p class="preço">R$19,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+        </div>
+
+        <div class="game-card">
+            <img src="src/assets/SilentHill2.png">
+            <h3>Silent Hill 2</h3>
+            <p class="preço">R$149,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+        </div>
+
+        <div class="game-card">
+            <img src="src/assets/ResidentEvil4jpg.jpg" >
+            <h3>Resident Evil 4</h3>
+            <p class="preço">R$49,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+        </div>
+        <div class="game-card">
+            <img src="src/assets/Outlast.841c08cf-c100-4be3-abee-b444a2304b90">
+            <h3>Outlast</h3>
+            <p class="preço">R$55,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+       </div>
+
+        <div class="game-card">
+            <img src="src/assets/TheEvilWithin.6d66b18d-3dde-4ccf-8703-824fc30c3a23">
+            <h3>The Evil Within</h3>
+            <p class="preço">R$59,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+        </div>
+      
+     
+        <div class="game-card">
+             
+            <img src="src/assets/Battlefield4.jpg">
+            <h3>Battlefield 4</h3>
+            <p class="preço">R$78,50</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+        </div>
+
+       <div class="game-card">
+            <img src="src/assets/CallOfDutyBO.jpg">
+            <h3>Call Of Duty Black Ops</h3>
+            <p class="preço">R$19,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+       </div>
+        <div class="game-card">
+            <img src="src/assets/BlackOps2.jpg">
+            <h3>Call of duty Black Ops 2</h3>
+            <p class="preço">R$39,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+       </div>
+       <div class="game-card">
+            <img src="src/assets/CallOfDuty3.jpg">
+            <h3>Call Of duty Black Ops 3</h3>
+            <p class="preço">R$59,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+       </div>
+       <div class="game-card">
+            <img src="src/assets/Black.jpg">
+            <h3>Black</h3>
+            <p class="preço">R$29,00</p>
+            <button class="btn-comprar" onclick="adicionarCarrinho()">COMPRAR</button>
+       </div>
+        </section>
+       
+    </main>
+        <footer id="Contato">
+        <p>&copy2024 IGxStore</p>
+        <div class="footer-links" >
+           <a >@IGXStore</a>
+           <a>Contato:55 (11) 99273-3532</a>
+           <a href="contato.html">Suporte</a>
+        </div>
+    </footer>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
