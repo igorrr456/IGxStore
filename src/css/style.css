@@ -49,7 +49,7 @@ nav ul
   
     margin-left: 800px;
 }
-nav ul li a
+nav ul button
 {
     margin: 15px;
     color: #fff;
@@ -159,7 +159,7 @@ height: 60%;
 }
 .game-card 
 {
-background:var(--card--bg);
+background: linear-gradient(135deg, #000000, #214467, #000000);
 border-radius: 10px;
 overflow: hidden;
 transition: transform 0.3 ease;
